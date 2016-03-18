@@ -1,8 +1,10 @@
 # ascii table
 
+[![Latest Stable Version](https://poser.pugx.org/ltd-beget/ascii-table/version)](https://packagist.org/packages/ltd-beget/ascii-table) 
+[![Total Downloads](https://poser.pugx.org/ltd-beget/ascii-table/downloads)](https://packagist.org/packages/ltd-beget/ascii-table)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/?branch=master)
-[![License MIT](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/LTD-Beget/ascii-table/blob/master/LICENSE)
 [![Documentation](https://img.shields.io/badge/code-documented-brightgreen.svg)](http://ltd-beget.github.io/ascii-table/documentation/html/index.html)
+[![License MIT](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/LTD-Beget/ascii-table/blob/master/LICENSE)
 
 Php library with ascii table enum.
 
