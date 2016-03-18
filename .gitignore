@@ -3,3 +3,4 @@ composer.phar
 .idea
 vendor
 index.php
+phpdox.xml

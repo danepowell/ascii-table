@@ -3,9 +3,7 @@
   <dir name="/home/damien/projects/ascii-table/src">
     <dir name="LTDBeget">
       <dir name="ascii">
-        <file name="AsciiPrintableCharacter.php" size="8184" time="2016-03-18T08:47:15+00:00" unixtime="1458290835" sha1="0f80b465ae232e9112c13b44d260b646f3f4d000" xml="tokens/LTDBeget/ascii/AsciiPrintableCharacter.php.xml"/>
-        <file name="AsciiControlChar.php" size="3119" time="2016-03-18T08:47:15+00:00" unixtime="1458290835" sha1="8905513a8e2eb54e9e10a92009f0bb34c13a6d19" xml="tokens/LTDBeget/ascii/AsciiControlChar.php.xml"/>
-        <file name="AsciiChar.php" size="1068" time="2016-03-18T09:00:53+00:00" unixtime="1458291653" sha1="9dca4d6d183ec731c9fad6d830bc3022dcbdfa14" xml="tokens/LTDBeget/ascii/AsciiChar.php.xml"/>
+        <file name="AsciiChar.php" size="11614" time="2016-03-18T09:54:12+00:00" unixtime="1458294852" sha1="ae25fea53e337a0c618f3150303d5cffd23b983e" xml="tokens/LTDBeget/ascii/AsciiChar.php.xml"/>
       </dir>
     </dir>
   </dir>

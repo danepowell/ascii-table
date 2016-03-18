@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <index xmlns="http://xml.phpdox.net/src" basedir="/home/damien/projects/ascii-table/src">
   <namespace name="LTDBeget\ascii">
-    <class name="AsciiPrintableChar" src="LTDBeget/ascii/AsciiPrintableCharacter.php" description="Class AsciiPrintableChar" xml="classes/LTDBeget_ascii_AsciiPrintableChar.xml"/>
-    <class name="AsciiControlChar" src="LTDBeget/ascii/AsciiControlChar.php" description="Class AsciiControlChar" xml="classes/LTDBeget_ascii_AsciiControlChar.xml"/>
     <class name="AsciiChar" src="LTDBeget/ascii/AsciiChar.php" description="Class AsciiChar" xml="classes/LTDBeget_ascii_AsciiChar.xml"/>
   </namespace>
 </index>

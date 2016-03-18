@@ -1,36 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="LTDBeget\ascii\AsciiChar" namespace="LTDBeget\ascii" name="AsciiChar" abstract="true" final="false" start="17" end="67">
-  <file path="/home/damien/projects/ascii-table/src/LTDBeget/ascii" file="AsciiChar.php" realpath="/home/damien/projects/ascii-table/src/LTDBeget/ascii/AsciiChar.php" size="1068" time="2016-03-18T09:00:53+00:00" unixtime="1458291653" sha1="9dca4d6d183ec731c9fad6d830bc3022dcbdfa14" relative="LTDBeget/ascii/AsciiChar.php"/>
+<class xmlns="http://xml.phpdox.net/src" full="LTDBeget\ascii\AsciiChar" namespace="LTDBeget\ascii" name="AsciiChar" abstract="false" final="false" start="146" end="325">
+  <file path="/home/damien/projects/ascii-table/src/LTDBeget/ascii" file="AsciiChar.php" realpath="/home/damien/projects/ascii-table/src/LTDBeget/ascii/AsciiChar.php" size="11614" time="2016-03-18T09:54:12+00:00" unixtime="1458294852" sha1="ae25fea53e337a0c618f3150303d5cffd23b983e" relative="LTDBeget/ascii/AsciiChar.php"/>
   <docblock>
     <description compact="Class AsciiChar"/>
     <package value="LTDBeget\ascii"/>
+    <method value="static AsciiChar NULL()"/>
+    <method value="static AsciiChar HEADING_START()"/>
+    <method value="static AsciiChar TEXT_START()"/>
+    <method value="static AsciiChar TEXT_END()"/>
+    <method value="static AsciiChar TRANSMISSION_END()"/>
+    <method value="static AsciiChar ENQUIRY()"/>
+    <method value="static AsciiChar ACKNOWLEDGMENT()"/>
+    <method value="static AsciiChar BELL()"/>
+    <method value="static AsciiChar BACKSPACE()"/>
+    <method value="static AsciiChar HORIZONTAL_TAB()"/>
+    <method value="static AsciiChar LINE_FEED()"/>
+    <method value="static AsciiChar VERTICAL_TAB()"/>
+    <method value="static AsciiChar FORM_FEED()"/>
+    <method value="static AsciiChar CARRIAGE_RETURN()"/>
+    <method value="static AsciiChar SHIFT_OUT()"/>
+    <method value="static AsciiChar SHIFT_IN()"/>
+    <method value="static AsciiChar DATA_LINE_ESCAPE()"/>
+    <method value="static AsciiChar DEVICE_CONTROL_1()"/>
+    <method value="static AsciiChar DEVICE_CONTROL_2()"/>
+    <method value="static AsciiChar DEVICE_CONTROL_3()"/>
+    <method value="static AsciiChar DEVICE_CONTROL_4()"/>
+    <method value="static AsciiChar NEGATIVE_ACKNOWLEDGEMENT()"/>
+    <method value="static AsciiChar SYNCHRONOUS_IDLE()"/>
+    <method value="static AsciiChar TRANSMIT_BLOCK_END()"/>
+    <method value="static AsciiChar CANCEL()"/>
+    <method value="static AsciiChar MEDIUM_END()"/>
+    <method value="static AsciiChar SUBSTITUTE()"/>
+    <method value="static AsciiChar ESCAPE()"/>
+    <method value="static AsciiChar FILE_SEPARATOR()"/>
+    <method value="static AsciiChar GROUP_SEPARATOR()"/>
+    <method value="static AsciiChar RECORD_SEPARATOR()"/>
+    <method value="static AsciiChar UNIT_SEPARATOR()"/>
+    <method value="static AsciiChar SPACE()"/>
+    <method value="static AsciiChar EXCLAMATION_MARK()"/>
+    <method value="static AsciiChar DOUBLE_QUOTES()"/>
+    <method value="static AsciiChar HASHTAG()"/>
+    <method value="static AsciiChar DOLLAR()"/>
+    <method value="static AsciiChar PROCENTTECKEN()"/>
+    <method value="static AsciiChar AMPERSAND()"/>
+    <method value="static AsciiChar SINGLE_QUOTE()"/>
+    <method value="static AsciiChar OPEN_BRACKET()"/>
+    <method value="static AsciiChar CLOSE_BRACKET()"/>
+    <method value="static AsciiChar ASTERISK()"/>
+    <method value="static AsciiChar PLUS()"/>
+    <method value="static AsciiChar COMMA()"/>
+    <method value="static AsciiChar HYPHEN()"/>
+    <method value="static AsciiChar DOT()"/>
+    <method value="static AsciiChar SLASH()"/>
+    <method value="static AsciiChar ZERO()"/>
+    <method value="static AsciiChar ONE()"/>
+    <method value="static AsciiChar TWO()"/>
+    <method value="static AsciiChar THREE()"/>
+    <method value="static AsciiChar FOUR()"/>
+    <method value="static AsciiChar FIVE()"/>
+    <method value="static AsciiChar SIX()"/>
+    <method value="static AsciiChar SEVEN()"/>
+    <method value="static AsciiChar EIGHT()"/>
+    <method value="static AsciiChar NINE()"/>
+    <method value="static AsciiChar COLON()"/>
+    <method value="static AsciiChar SEMICOLON()"/>
+    <method value="static AsciiChar LESS_THAN()"/>
+    <method value="static AsciiChar EQUALS()"/>
+    <method value="static AsciiChar GREATER_THAN()"/>
+    <method value="static AsciiChar QUESTION_MARK()"/>
+    <method value="static AsciiChar AT_SYMBOL()"/>
+    <method value="static AsciiChar A_UPPERCASE()"/>
+    <method value="static AsciiChar B_UPPERCASE()"/>
+    <method value="static AsciiChar C_UPPERCASE()"/>
+    <method value="static AsciiChar D_UPPERCASE()"/>
+    <method value="static AsciiChar E_UPPERCASE()"/>
+    <method value="static AsciiChar F_UPPERCASE()"/>
+    <method value="static AsciiChar G_UPPERCASE()"/>
+    <method value="static AsciiChar H_UPPERCASE()"/>
+    <method value="static AsciiChar I_UPPERCASE()"/>
+    <method value="static AsciiChar J_UPPERCASE()"/>
+    <method value="static AsciiChar K_UPPERCASE()"/>
+    <method value="static AsciiChar L_UPPERCASE()"/>
+    <method value="static AsciiChar M_UPPERCASE()"/>
+    <method value="static AsciiChar N_UPPERCASE()"/>
+    <method value="static AsciiChar O_UPPERCASE()"/>
+    <method value="static AsciiChar P_UPPERCASE()"/>
+    <method value="static AsciiChar Q_UPPERCASE()"/>
+    <method value="static AsciiChar R_UPPERCASE()"/>
+    <method value="static AsciiChar S_UPPERCASE()"/>
+    <method value="static AsciiChar T_UPPERCASE()"/>
+    <method value="static AsciiChar U_UPPERCASE()"/>
+    <method value="static AsciiChar V_UPPERCASE()"/>
+    <method value="static AsciiChar W_UPPERCASE()"/>
+    <method value="static AsciiChar X_UPPERCASE()"/>
+    <method value="static AsciiChar Y_UPPERCASE()"/>
+    <method value="static AsciiChar Z_UPPERCASE()"/>
+    <method value="static AsciiChar OPENING_BRACKET()"/>
+    <method value="static AsciiChar BACKSLASH()"/>
+    <method value="static AsciiChar CLOSING_BRACKET()"/>
+    <method value="static AsciiChar CARET()"/>
+    <method value="static AsciiChar UNDERSCORE()"/>
+    <method value="static AsciiChar GRAVE_ACCENT()"/>
+    <method value="static AsciiChar A_LOWERCASE()"/>
+    <method value="static AsciiChar B_LOWERCASE()"/>
+    <method value="static AsciiChar C_LOWERCASE()"/>
+    <method value="static AsciiChar D_LOWERCASE()"/>
+    <method value="static AsciiChar E_LOWERCASE()"/>
+    <method value="static AsciiChar F_LOWERCASE()"/>
+    <method value="static AsciiChar G_LOWERCASE()"/>
+    <method value="static AsciiChar H_LOWERCASE()"/>
+    <method value="static AsciiChar I_LOWERCASE()"/>
+    <method value="static AsciiChar J_LOWERCASE()"/>
+    <method value="static AsciiChar K_LOWERCASE()"/>
+    <method value="static AsciiChar L_LOWERCASE()"/>
+    <method value="static AsciiChar M_LOWERCASE()"/>
+    <method value="static AsciiChar N_LOWERCASE()"/>
+    <method value="static AsciiChar O_LOWERCASE()"/>
+    <method value="static AsciiChar P_LOWERCASE()"/>
+    <method value="static AsciiChar Q_LOWERCASE()"/>
+    <method value="static AsciiChar R_LOWERCASE()"/>
+    <method value="static AsciiChar S_LOWERCASE()"/>
+    <method value="static AsciiChar T_LOWERCASE()"/>
+    <method value="static AsciiChar U_LOWERCASE()"/>
+    <method value="static AsciiChar V_LOWERCASE()"/>
+    <method value="static AsciiChar W_LOWERCASE()"/>
+    <method value="static AsciiChar X_LOWERCASE()"/>
+    <method value="static AsciiChar Y_LOWERCASE()"/>
+    <method value="static AsciiChar Z_LOWERCASE()"/>
+    <method value="static AsciiChar OPENING_BRACE()"/>
+    <method value="static AsciiChar VERTICAL_BAR()"/>
+    <method value="static AsciiChar CLOSING_BRACE()"/>
+    <method value="static AsciiChar TILDE()"/>
+    <method value="static AsciiChar DELETE()"/>
   </docblock>
   <extends full="MabeEnum\Enum" namespace="MabeEnum" name="Enum" unresolved="true"/>
-  <method name="__toString" start="23" end="26" abstract="false" final="false" static="false" visibility="public">
+  <constant type="integer" name="NULL" value="0"/>
+  <constant type="integer" name="HEADING_START" value="1"/>
+  <constant type="integer" name="TEXT_START" value="2"/>
+  <constant type="integer" name="TEXT_END" value="3"/>
+  <constant type="integer" name="TRANSMISSION_END" value="4"/>
+  <constant type="integer" name="ENQUIRY" value="5"/>
+  <constant type="integer" name="ACKNOWLEDGMENT" value="6"/>
+  <constant type="integer" name="BELL" value="7"/>
+  <constant type="integer" name="BACKSPACE" value="8"/>
+  <constant type="integer" name="HORIZONTAL_TAB" value="9"/>
+  <constant type="integer" name="LINE_FEED" value="10"/>
+  <constant type="integer" name="VERTICAL_TAB" value="11"/>
+  <constant type="integer" name="FORM_FEED" value="12"/>
+  <constant type="integer" name="CARRIAGE_RETURN" value="13"/>
+  <constant type="integer" name="SHIFT_OUT" value="14"/>
+  <constant type="integer" name="SHIFT_IN" value="15"/>
+  <constant type="integer" name="DATA_LINE_ESCAPE" value="16"/>
+  <constant type="integer" name="DEVICE_CONTROL_1" value="17"/>
+  <constant type="integer" name="DEVICE_CONTROL_2" value="18"/>
+  <constant type="integer" name="DEVICE_CONTROL_3" value="19"/>
+  <constant type="integer" name="DEVICE_CONTROL_4" value="20"/>
+  <constant type="integer" name="NEGATIVE_ACKNOWLEDGEMENT" value="21"/>
+  <constant type="integer" name="SYNCHRONOUS_IDLE" value="22"/>
+  <constant type="integer" name="TRANSMIT_BLOCK_END" value="23"/>
+  <constant type="integer" name="CANCEL" value="24"/>
+  <constant type="integer" name="MEDIUM_END" value="25"/>
+  <constant type="integer" name="SUBSTITUTE" value="26"/>
+  <constant type="integer" name="ESCAPE" value="27"/>
+  <constant type="integer" name="FILE_SEPARATOR" value="28"/>
+  <constant type="integer" name="GROUP_SEPARATOR" value="29"/>
+  <constant type="integer" name="RECORD_SEPARATOR" value="30"/>
+  <constant type="integer" name="UNIT_SEPARATOR" value="31"/>
+  <constant type="integer" name="SPACE" value="32"/>
+  <constant type="integer" name="EXCLAMATION_MARK" value="33"/>
+  <constant type="integer" name="DOUBLE_QUOTES" value="34"/>
+  <constant type="integer" name="HASHTAG" value="35"/>
+  <constant type="integer" name="DOLLAR" value="36"/>
+  <constant type="integer" name="PROCENTTECKEN" value="37"/>
+  <constant type="integer" name="AMPERSAND" value="38"/>
+  <constant type="integer" name="SINGLE_QUOTE" value="39"/>
+  <constant type="integer" name="OPEN_BRACKET" value="40"/>
+  <constant type="integer" name="CLOSE_BRACKET" value="41"/>
+  <constant type="integer" name="ASTERISK" value="42"/>
+  <constant type="integer" name="PLUS" value="43"/>
+  <constant type="integer" name="COMMA" value="44"/>
+  <constant type="integer" name="HYPHEN" value="45"/>
+  <constant type="integer" name="DOT" value="46"/>
+  <constant type="integer" name="SLASH" value="47"/>
+  <constant type="integer" name="ZERO" value="48"/>
+  <constant type="integer" name="ONE" value="49"/>
+  <constant type="integer" name="TWO" value="50"/>
+  <constant type="integer" name="THREE" value="51"/>
+  <constant type="integer" name="FOUR" value="52"/>
+  <constant type="integer" name="FIVE" value="53"/>
+  <constant type="integer" name="SIX" value="54"/>
+  <constant type="integer" name="SEVEN" value="55"/>
+  <constant type="integer" name="EIGHT" value="56"/>
+  <constant type="integer" name="NINE" value="57"/>
+  <constant type="integer" name="COLON" value="58"/>
+  <constant type="integer" name="SEMICOLON" value="59"/>
+  <constant type="integer" name="LESS_THAN" value="60"/>
+  <constant type="integer" name="EQUALS" value="61"/>
+  <constant type="integer" name="GREATER_THAN" value="62"/>
+  <constant type="integer" name="QUESTION_MARK" value="63"/>
+  <constant type="integer" name="AT_SYMBOL" value="64"/>
+  <constant type="integer" name="A_UPPERCASE" value="65"/>
+  <constant type="integer" name="B_UPPERCASE" value="66"/>
+  <constant type="integer" name="C_UPPERCASE" value="67"/>
+  <constant type="integer" name="D_UPPERCASE" value="68"/>
+  <constant type="integer" name="E_UPPERCASE" value="69"/>
+  <constant type="integer" name="F_UPPERCASE" value="70"/>
+  <constant type="integer" name="G_UPPERCASE" value="71"/>
+  <constant type="integer" name="H_UPPERCASE" value="72"/>
+  <constant type="integer" name="I_UPPERCASE" value="73"/>
+  <constant type="integer" name="J_UPPERCASE" value="74"/>
+  <constant type="integer" name="K_UPPERCASE" value="75"/>
+  <constant type="integer" name="L_UPPERCASE" value="76"/>
+  <constant type="integer" name="M_UPPERCASE" value="77"/>
+  <constant type="integer" name="N_UPPERCASE" value="78"/>
+  <constant type="integer" name="O_UPPERCASE" value="79"/>
+  <constant type="integer" name="P_UPPERCASE" value="80"/>
+  <constant type="integer" name="Q_UPPERCASE" value="81"/>
+  <constant type="integer" name="R_UPPERCASE" value="82"/>
+  <constant type="integer" name="S_UPPERCASE" value="83"/>
+  <constant type="integer" name="T_UPPERCASE" value="84"/>
+  <constant type="integer" name="U_UPPERCASE" value="85"/>
+  <constant type="integer" name="V_UPPERCASE" value="86"/>
+  <constant type="integer" name="W_UPPERCASE" value="87"/>
+  <constant type="integer" name="X_UPPERCASE" value="88"/>
+  <constant type="integer" name="Y_UPPERCASE" value="89"/>
+  <constant type="integer" name="Z_UPPERCASE" value="90"/>
+  <constant type="integer" name="OPENING_BRACKET" value="91"/>
+  <constant type="integer" name="BACKSLASH" value="92"/>
+  <constant type="integer" name="CLOSING_BRACKET" value="93"/>
+  <constant type="integer" name="CARET" value="94"/>
+  <constant type="integer" name="UNDERSCORE" value="95"/>
+  <constant type="integer" name="GRAVE_ACCENT" value="96"/>
+  <constant type="integer" name="A_LOWERCASE" value="97"/>
+  <constant type="integer" name="B_LOWERCASE" value="98"/>
+  <constant type="integer" name="C_LOWERCASE" value="99"/>
+  <constant type="integer" name="D_LOWERCASE" value="100"/>
+  <constant type="integer" name="E_LOWERCASE" value="101"/>
+  <constant type="integer" name="F_LOWERCASE" value="102"/>
+  <constant type="integer" name="G_LOWERCASE" value="103"/>
+  <constant type="integer" name="H_LOWERCASE" value="104"/>
+  <constant type="integer" name="I_LOWERCASE" value="105"/>
+  <constant type="integer" name="J_LOWERCASE" value="106"/>
+  <constant type="integer" name="K_LOWERCASE" value="107"/>
+  <constant type="integer" name="L_LOWERCASE" value="108"/>
+  <constant type="integer" name="M_LOWERCASE" value="109"/>
+  <constant type="integer" name="N_LOWERCASE" value="110"/>
+  <constant type="integer" name="O_LOWERCASE" value="111"/>
+  <constant type="integer" name="P_LOWERCASE" value="112"/>
+  <constant type="integer" name="Q_LOWERCASE" value="113"/>
+  <constant type="integer" name="R_LOWERCASE" value="114"/>
+  <constant type="integer" name="S_LOWERCASE" value="115"/>
+  <constant type="integer" name="T_LOWERCASE" value="116"/>
+  <constant type="integer" name="U_LOWERCASE" value="117"/>
+  <constant type="integer" name="V_LOWERCASE" value="118"/>
+  <constant type="integer" name="W_LOWERCASE" value="119"/>
+  <constant type="integer" name="X_LOWERCASE" value="120"/>
+  <constant type="integer" name="Y_LOWERCASE" value="121"/>
+  <constant type="integer" name="Z_LOWERCASE" value="122"/>
+  <constant type="integer" name="OPENING_BRACE" value="123"/>
+  <constant type="integer" name="VERTICAL_BAR" value="124"/>
+  <constant type="integer" name="CLOSING_BRACE" value="125"/>
+  <constant type="integer" name="TILDE" value="126"/>
+  <constant type="integer" name="DELETE" value="127"/>
+  <method name="__toString" start="281" end="284" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description compact="ascii table symbol as char"/>
       <return type="string"/>
     </docblock>
   </method>
-  <method name="getChar" start="31" end="34" abstract="false" final="false" static="false" visibility="public">
+  <method name="getChar" start="289" end="292" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description/>
       <return type="string"/>
     </docblock>
   </method>
-  <method name="getDec" start="39" end="42" abstract="false" final="false" static="false" visibility="public">
+  <method name="getDec" start="297" end="300" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description/>
       <return type="int"/>
     </docblock>
   </method>
-  <method name="getHex" start="47" end="50" abstract="false" final="false" static="false" visibility="public">
+  <method name="getHex" start="305" end="308" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description/>
       <return type="string"/>
     </docblock>
   </method>
-  <method name="isControlChar" start="55" end="58" abstract="false" final="false" static="false" visibility="public">
+  <method name="isControlChar" start="313" end="316" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description/>
       <return type="object">
@@ -38,7 +294,7 @@
       </return>
     </docblock>
   </method>
-  <method name="isPrintableChar" start="63" end="66" abstract="false" final="false" static="false" visibility="public">
+  <method name="isPrintableChar" start="321" end="324" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description/>
       <return type="object">
@@ -46,8 +302,4 @@
       </return>
     </docblock>
   </method>
-  <extenders>
-    <extender full="LTDBeget\ascii\AsciiPrintableChar" namespace="LTDBeget\ascii" name="AsciiPrintableChar"/>
-    <extender full="LTDBeget\ascii\AsciiControlChar" namespace="LTDBeget\ascii" name="AsciiControlChar"/>
-  </extenders>
 </class>
