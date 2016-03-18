@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ascii-table by LTD-Beget</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Ascii-table</h1>
+      <h2 class="project-tagline">Enum of ascii table chars</h2>
+      <a href="https://github.com/LTD-Beget/ascii-table" class="btn">View on GitHub</a>
+      <a href="https://github.com/LTD-Beget/ascii-table/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/LTD-Beget/ascii-table/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="ascii-table" class="anchor" href="#ascii-table" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ascii table</h1>
+
+<p><a href="https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/?branch=master"><img src="https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
+<a href="https://github.com/LTD-Beget/ascii-table/blob/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License MIT"></a></p>
+
+<p>Php library with ascii table enum.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<div class="highlight highlight-source-shell"><pre>composer require ltd-beget/ascii-table</pre></div>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-k">&lt;</span>?<span class="pl-c1">php</span></span>
+<span class="pl-s1">    <span class="pl-k">require</span>(<span class="pl-c1">__DIR__</span> <span class="pl-k">.</span> <span class="pl-s"><span class="pl-pds">'</span>/vendor/autoload.php<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">    <span class="pl-k">use</span> <span class="pl-c1">LTDBeget\ascii\AsciiControlChar</span>;</span>
+<span class="pl-s1">    <span class="pl-k">use</span> <span class="pl-c1">LTDBeget\ascii\AsciiPrintableChar</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">    <span class="pl-smi">$backspace</span> <span class="pl-k">=</span> <span class="pl-c1">AsciiControlChar</span><span class="pl-k">::</span>BACKSPACE();</span>
+<span class="pl-s1">    <span class="pl-smi">$backspace</span><span class="pl-k">-&gt;</span>getDec();</span>
+<span class="pl-s1">    <span class="pl-smi">$backspace</span><span class="pl-k">-&gt;</span>getChar();</span>
+<span class="pl-s1">    <span class="pl-smi">$backspace</span><span class="pl-k">-&gt;</span>getHex();</span>
+<span class="pl-s1">    <span class="pl-smi">$backspace</span><span class="pl-k">-&gt;</span>isControlChar();</span>
+<span class="pl-s1">    <span class="pl-smi">$backspace</span><span class="pl-k">-&gt;</span>isPrintableChar();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">    <span class="pl-smi">$colon</span> <span class="pl-k">=</span> <span class="pl-c1">AsciiPrintableChar</span><span class="pl-k">::</span>COLON();</span>
+<span class="pl-s1">    <span class="pl-smi">$colon</span><span class="pl-k">-&gt;</span>getDec();</span>
+<span class="pl-s1">    <span class="pl-smi">$colon</span><span class="pl-k">-&gt;</span>getChar();</span>
+<span class="pl-s1">    <span class="pl-smi">$colon</span><span class="pl-k">-&gt;</span>getHex();</span>
+<span class="pl-s1">    <span class="pl-smi">$colon</span><span class="pl-k">-&gt;</span>isControlChar();</span>
+<span class="pl-s1">    <span class="pl-smi">$colon</span><span class="pl-k">-&gt;</span>isPrintableChar();</span></pre></div>
+
+<h2>
+<a id="developers" class="anchor" href="#developers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developers</h2>
+
+<h3>
+<a id="regenerate-documentation" class="anchor" href="#regenerate-documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Regenerate documentation</h3>
+
+<div class="highlight highlight-source-shell"><pre>$ ./vendor/bin/phpdox</pre></div>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>released under the MIT License.
+See the <a href="LICENSE">bundled LICENSE file</a> for details.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/LTD-Beget/ascii-table">Ascii-table</a> is maintained by <a href="https://github.com/LTD-Beget">LTD-Beget</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
