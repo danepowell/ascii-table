@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="LTDBeget\ascii\AsciiChar" namespace="LTDBeget\ascii" name="AsciiChar" abstract="true" final="false" start="17" end="67">
+  <file path="/home/damien/projects/ascii-table/src/LTDBeget/ascii" file="AsciiChar.php" realpath="/home/damien/projects/ascii-table/src/LTDBeget/ascii/AsciiChar.php" size="1068" time="2016-03-18T09:00:53+00:00" unixtime="1458291653" sha1="9dca4d6d183ec731c9fad6d830bc3022dcbdfa14" relative="LTDBeget/ascii/AsciiChar.php"/>
+  <docblock>
+    <description compact="Class AsciiChar"/>
+    <package value="LTDBeget\ascii"/>
+  </docblock>
+  <extends full="MabeEnum\Enum" namespace="MabeEnum" name="Enum" unresolved="true"/>
+  <method name="__toString" start="23" end="26" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="ascii table symbol as char"/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="getChar" start="31" end="34" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="getDec" start="39" end="42" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="int"/>
+    </docblock>
+  </method>
+  <method name="getHex" start="47" end="50" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="isControlChar" start="55" end="58" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="LTDBeget\ascii\bool" namespace="LTDBeget\ascii" name="bool"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="isPrintableChar" start="63" end="66" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="LTDBeget\ascii\bool" namespace="LTDBeget\ascii" name="bool"/>
+      </return>
+    </docblock>
+  </method>
+  <extenders>
+    <extender full="LTDBeget\ascii\AsciiPrintableChar" namespace="LTDBeget\ascii" name="AsciiPrintableChar"/>
+    <extender full="LTDBeget\ascii\AsciiControlChar" namespace="LTDBeget\ascii" name="AsciiControlChar"/>
+  </extenders>
+</class>

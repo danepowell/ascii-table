@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="LTDBeget\ascii\AsciiControlChar" namespace="LTDBeget\ascii" name="AsciiControlChar" abstract="false" final="false" start="47" end="81">
+  <file path="/home/damien/projects/ascii-table/src/LTDBeget/ascii" file="AsciiControlChar.php" realpath="/home/damien/projects/ascii-table/src/LTDBeget/ascii/AsciiControlChar.php" size="3119" time="2016-03-18T08:47:15+00:00" unixtime="1458290835" sha1="8905513a8e2eb54e9e10a92009f0bb34c13a6d19" relative="LTDBeget/ascii/AsciiControlChar.php"/>
+  <docblock>
+    <description compact="Class AsciiControlChar"/>
+    <package value="LTDBeget\ascii"/>
+    <method value="static AsciiControlChar NULL()"/>
+    <method value="static AsciiControlChar HEADING_START()"/>
+    <method value="static AsciiControlChar TEXT_START()"/>
+    <method value="static AsciiControlChar TEXT_END()"/>
+    <method value="static AsciiControlChar TRANSMISSION_END()"/>
+    <method value="static AsciiControlChar ENQUIRY()"/>
+    <method value="static AsciiControlChar ACKNOWLEDGMENT()"/>
+    <method value="static AsciiControlChar BELL()"/>
+    <method value="static AsciiControlChar BACKSPACE()"/>
+    <method value="static AsciiControlChar HORIZONTAL_TAB()"/>
+    <method value="static AsciiControlChar LINE_FEED()"/>
+    <method value="static AsciiControlChar VERTICAL_TAB()"/>
+    <method value="static AsciiControlChar FORM_FEED()"/>
+    <method value="static AsciiControlChar CARRIAGE_RETURN()"/>
+    <method value="static AsciiControlChar SHIFT_OUT()"/>
+    <method value="static AsciiControlChar SHIFT_IN()"/>
+    <method value="static AsciiControlChar DATA_LINE_ESCAPE()"/>
+    <method value="static AsciiControlChar DEVICE_CONTROL_1()"/>
+    <method value="static AsciiControlChar DEVICE_CONTROL_2()"/>
+    <method value="static AsciiControlChar DEVICE_CONTROL_3()"/>
+    <method value="static AsciiControlChar DEVICE_CONTROL_4()"/>
+    <method value="static AsciiControlChar NEGATIVE_ACKNOWLEDGEMENT()"/>
+    <method value="static AsciiControlChar SYNCHRONOUS_IDLE()"/>
+    <method value="static AsciiControlChar TRANSMIT_BLOCK_END()"/>
+    <method value="static AsciiControlChar CANCEL()"/>
+    <method value="static AsciiControlChar MEDIUM_END()"/>
+    <method value="static AsciiControlChar SUBSTITUTE()"/>
+    <method value="static AsciiControlChar ESCAPE()"/>
+    <method value="static AsciiControlChar FILE_SEPARATOR()"/>
+    <method value="static AsciiControlChar GROUP_SEPARATOR()"/>
+    <method value="static AsciiControlChar RECORD_SEPARATOR()"/>
+    <method value="static AsciiControlChar UNIT_SEPARATOR()"/>
+  </docblock>
+  <extends full="LTDBeget\ascii\AsciiChar" namespace="LTDBeget\ascii" name="AsciiChar"/>
+  <constant type="integer" name="NULL" value="0"/>
+  <constant type="integer" name="HEADING_START" value="1"/>
+  <constant type="integer" name="TEXT_START" value="2"/>
+  <constant type="integer" name="TEXT_END" value="3"/>
+  <constant type="integer" name="TRANSMISSION_END" value="4"/>
+  <constant type="integer" name="ENQUIRY" value="5"/>
+  <constant type="integer" name="ACKNOWLEDGMENT" value="6"/>
+  <constant type="integer" name="BELL" value="7"/>
+  <constant type="integer" name="BACKSPACE" value="8"/>
+  <constant type="integer" name="HORIZONTAL_TAB" value="9"/>
+  <constant type="integer" name="LINE_FEED" value="10"/>
+  <constant type="integer" name="VERTICAL_TAB" value="11"/>
+  <constant type="integer" name="FORM_FEED" value="12"/>
+  <constant type="integer" name="CARRIAGE_RETURN" value="13"/>
+  <constant type="integer" name="SHIFT_OUT" value="14"/>
+  <constant type="integer" name="SHIFT_IN" value="15"/>
+  <constant type="integer" name="DATA_LINE_ESCAPE" value="16"/>
+  <constant type="integer" name="DEVICE_CONTROL_1" value="17"/>
+  <constant type="integer" name="DEVICE_CONTROL_2" value="18"/>
+  <constant type="integer" name="DEVICE_CONTROL_3" value="19"/>
+  <constant type="integer" name="DEVICE_CONTROL_4" value="20"/>
+  <constant type="integer" name="NEGATIVE_ACKNOWLEDGEMENT" value="21"/>
+  <constant type="integer" name="SYNCHRONOUS_IDLE" value="22"/>
+  <constant type="integer" name="TRANSMIT_BLOCK_END" value="23"/>
+  <constant type="integer" name="CANCEL" value="24"/>
+  <constant type="integer" name="MEDIUM_END" value="25"/>
+  <constant type="integer" name="SUBSTITUTE" value="26"/>
+  <constant type="integer" name="ESCAPE" value="27"/>
+  <constant type="integer" name="FILE_SEPARATOR" value="28"/>
+  <constant type="integer" name="GROUP_SEPARATOR" value="29"/>
+  <constant type="integer" name="RECORD_SEPARATOR" value="30"/>
+  <constant type="integer" name="UNIT_SEPARATOR" value="31"/>
+  <parent full="LTDBeget\ascii\AsciiChar" namespace="LTDBeget\ascii" name="AsciiChar">
+    <extends full="MabeEnum\Enum" namespace="MabeEnum" name="Enum" unresolved="true"/>
+    <method name="__toString" start="23" end="26" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="ascii table symbol as char"/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="getChar" start="31" end="34" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="getDec" start="39" end="42" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="int"/>
+      </docblock>
+    </method>
+    <method name="getHex" start="47" end="50" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="isControlChar" start="55" end="58" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="object">
+          <type full="LTDBeget\ascii\bool" namespace="LTDBeget\ascii" name="bool"/>
+        </return>
+      </docblock>
+    </method>
+    <method name="isPrintableChar" start="63" end="66" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="object">
+          <type full="LTDBeget\ascii\bool" namespace="LTDBeget\ascii" name="bool"/>
+        </return>
+      </docblock>
+    </method>
+  </parent>
+</class>

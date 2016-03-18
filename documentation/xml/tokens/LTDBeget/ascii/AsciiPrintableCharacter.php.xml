@@ -1,0 +1,1410 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="/home/damien/projects/ascii-table/src/LTDBeget/ascii" file="AsciiPrintableCharacter.php" realpath="/home/damien/projects/ascii-table/src/LTDBeget/ascii/AsciiPrintableCharacter.php" size="8184" time="2016-03-18T08:47:15+00:00" unixtime="1458290835" sha1="0f80b465ae232e9112c13b44d260b646f3f4d000" relative="LTDBeget/ascii/AsciiPrintableCharacter.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2">
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="3">
+    <token name="T_DOC_COMMENT"> * @author: Viskov Sergey</token>
+  </line>
+  <line no="4">
+    <token name="T_DOC_COMMENT"> * @date: 3/18/16</token>
+  </line>
+  <line no="5">
+    <token name="T_DOC_COMMENT"> * @time: 11:33 AM</token>
+  </line>
+  <line no="6">
+    <token name="T_DOC_COMMENT"> */</token>
+  </line>
+  <line no="7"/>
+  <line no="8">
+    <token name="T_NAMESPACE">namespace</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">LTDBeget</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">ascii</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="9"/>
+  <line no="10"/>
+  <line no="11">
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="12">
+    <token name="T_DOC_COMMENT"> * Class AsciiPrintableChar</token>
+  </line>
+  <line no="13">
+    <token name="T_DOC_COMMENT"> * @package LTDBeget\ascii</token>
+  </line>
+  <line no="14">
+    <token name="T_DOC_COMMENT"> *</token>
+  </line>
+  <line no="15">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar SPACE()</token>
+  </line>
+  <line no="16">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar EXCLAMATION_MARK()</token>
+  </line>
+  <line no="17">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar DOUBLE_QUOTES()</token>
+  </line>
+  <line no="18">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar HASHTAG()</token>
+  </line>
+  <line no="19">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar DOLLAR()</token>
+  </line>
+  <line no="20">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar PROCENTTECKEN()</token>
+  </line>
+  <line no="21">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar AMPERSAND()</token>
+  </line>
+  <line no="22">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar SINGLE_QUOTE()</token>
+  </line>
+  <line no="23">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar OPEN_BRACKET()</token>
+  </line>
+  <line no="24">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar CLOSE_BRACKET()</token>
+  </line>
+  <line no="25">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar ASTERISK()</token>
+  </line>
+  <line no="26">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar PLUS()</token>
+  </line>
+  <line no="27">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar COMMA()</token>
+  </line>
+  <line no="28">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar HYPHEN()</token>
+  </line>
+  <line no="29">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar DOT()</token>
+  </line>
+  <line no="30">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar SLASH()</token>
+  </line>
+  <line no="31">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar ZERO()</token>
+  </line>
+  <line no="32">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar ONE()</token>
+  </line>
+  <line no="33">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar TWO()</token>
+  </line>
+  <line no="34">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar THREE()</token>
+  </line>
+  <line no="35">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar FOUR()</token>
+  </line>
+  <line no="36">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar FIVE()</token>
+  </line>
+  <line no="37">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar SIX()</token>
+  </line>
+  <line no="38">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar SEVEN()</token>
+  </line>
+  <line no="39">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar EIGHT()</token>
+  </line>
+  <line no="40">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar NINE()</token>
+  </line>
+  <line no="41">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar COLON()</token>
+  </line>
+  <line no="42">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar SEMICOLON()</token>
+  </line>
+  <line no="43">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar LESS_THAN()</token>
+  </line>
+  <line no="44">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar EQUALS()</token>
+  </line>
+  <line no="45">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar GREATER_THAN()</token>
+  </line>
+  <line no="46">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar QUESTION_MARK()</token>
+  </line>
+  <line no="47">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar AT_SYMBOL()</token>
+  </line>
+  <line no="48">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar A_UPPERCASE()</token>
+  </line>
+  <line no="49">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar B_UPPERCASE()</token>
+  </line>
+  <line no="50">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar C_UPPERCASE()</token>
+  </line>
+  <line no="51">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar D_UPPERCASE()</token>
+  </line>
+  <line no="52">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar E_UPPERCASE()</token>
+  </line>
+  <line no="53">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar F_UPPERCASE()</token>
+  </line>
+  <line no="54">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar G_UPPERCASE()</token>
+  </line>
+  <line no="55">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar H_UPPERCASE()</token>
+  </line>
+  <line no="56">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar I_UPPERCASE()</token>
+  </line>
+  <line no="57">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar J_UPPERCASE()</token>
+  </line>
+  <line no="58">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar K_UPPERCASE()</token>
+  </line>
+  <line no="59">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar L_UPPERCASE()</token>
+  </line>
+  <line no="60">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar M_UPPERCASE()</token>
+  </line>
+  <line no="61">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar N_UPPERCASE()</token>
+  </line>
+  <line no="62">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar O_UPPERCASE()</token>
+  </line>
+  <line no="63">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar P_UPPERCASE()</token>
+  </line>
+  <line no="64">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar Q_UPPERCASE()</token>
+  </line>
+  <line no="65">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar R_UPPERCASE()</token>
+  </line>
+  <line no="66">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar S_UPPERCASE()</token>
+  </line>
+  <line no="67">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar T_UPPERCASE()</token>
+  </line>
+  <line no="68">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar U_UPPERCASE()</token>
+  </line>
+  <line no="69">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar V_UPPERCASE()</token>
+  </line>
+  <line no="70">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar W_UPPERCASE()</token>
+  </line>
+  <line no="71">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar X_UPPERCASE()</token>
+  </line>
+  <line no="72">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar Y_UPPERCASE()</token>
+  </line>
+  <line no="73">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar Z_UPPERCASE()</token>
+  </line>
+  <line no="74">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar OPENING_BRACKET()</token>
+  </line>
+  <line no="75">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar BACKSLASH()</token>
+  </line>
+  <line no="76">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar CLOSING_BRACKET()</token>
+  </line>
+  <line no="77">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar CARET()</token>
+  </line>
+  <line no="78">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar UNDERSCORE()</token>
+  </line>
+  <line no="79">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar GRAVE_ACCENT()</token>
+  </line>
+  <line no="80">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar A_LOWERCASE()</token>
+  </line>
+  <line no="81">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar B_LOWERCASE()</token>
+  </line>
+  <line no="82">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar C_LOWERCASE()</token>
+  </line>
+  <line no="83">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar D_LOWERCASE()</token>
+  </line>
+  <line no="84">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar E_LOWERCASE()</token>
+  </line>
+  <line no="85">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar F_LOWERCASE()</token>
+  </line>
+  <line no="86">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar G_LOWERCASE()</token>
+  </line>
+  <line no="87">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar H_LOWERCASE()</token>
+  </line>
+  <line no="88">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar I_LOWERCASE()</token>
+  </line>
+  <line no="89">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar J_LOWERCASE()</token>
+  </line>
+  <line no="90">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar K_LOWERCASE()</token>
+  </line>
+  <line no="91">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar L_LOWERCASE()</token>
+  </line>
+  <line no="92">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar M_LOWERCASE()</token>
+  </line>
+  <line no="93">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar N_LOWERCASE()</token>
+  </line>
+  <line no="94">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar O_LOWERCASE()</token>
+  </line>
+  <line no="95">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar P_LOWERCASE()</token>
+  </line>
+  <line no="96">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar Q_LOWERCASE()</token>
+  </line>
+  <line no="97">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar R_LOWERCASE()</token>
+  </line>
+  <line no="98">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar S_LOWERCASE()</token>
+  </line>
+  <line no="99">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar T_LOWERCASE()</token>
+  </line>
+  <line no="100">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar U_LOWERCASE()</token>
+  </line>
+  <line no="101">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar V_LOWERCASE()</token>
+  </line>
+  <line no="102">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar W_LOWERCASE()</token>
+  </line>
+  <line no="103">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar X_LOWERCASE()</token>
+  </line>
+  <line no="104">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar Y_LOWERCASE()</token>
+  </line>
+  <line no="105">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar Z_LOWERCASE()</token>
+  </line>
+  <line no="106">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar OPENING_BRACE()</token>
+  </line>
+  <line no="107">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar VERTICAL_BAR()</token>
+  </line>
+  <line no="108">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar CLOSING_BRACE()</token>
+  </line>
+  <line no="109">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar TILDE()</token>
+  </line>
+  <line no="110">
+    <token name="T_DOC_COMMENT"> * @method static AsciiPrintableChar DELETE()</token>
+  </line>
+  <line no="111">
+    <token name="T_DOC_COMMENT"> *</token>
+  </line>
+  <line no="112">
+    <token name="T_DOC_COMMENT"> */</token>
+  </line>
+  <line no="113">
+    <token name="T_CLASS">class</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">AsciiPrintableChar</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_EXTENDS">extends</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">AsciiChar</token>
+  </line>
+  <line no="114">
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="115">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SPACE</token>
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">32</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="116">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">EXCLAMATION_MARK</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">33</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="117">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">DOUBLE_QUOTES</token>
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">34</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="118">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">HASHTAG</token>
+    <token name="T_WHITESPACE">          </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">35</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="119">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">DOLLAR</token>
+    <token name="T_WHITESPACE">           </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">36</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="120">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">PROCENTTECKEN</token>
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">37</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="121">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">AMPERSAND</token>
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">38</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="122">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SINGLE_QUOTE</token>
+    <token name="T_WHITESPACE">     </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">39</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="123">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">OPEN_BRACKET</token>
+    <token name="T_WHITESPACE">     </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">40</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="124">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">CLOSE_BRACKET</token>
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">41</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="125">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">ASTERISK</token>
+    <token name="T_WHITESPACE">         </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">42</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="126">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">PLUS</token>
+    <token name="T_WHITESPACE">             </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">43</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="127">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">COMMA</token>
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">44</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="128">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">HYPHEN</token>
+    <token name="T_WHITESPACE">           </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">45</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="129">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">DOT</token>
+    <token name="T_WHITESPACE">              </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">46</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="130">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SLASH</token>
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">47</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="131">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">ZERO</token>
+    <token name="T_WHITESPACE">             </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">48</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="132">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">ONE</token>
+    <token name="T_WHITESPACE">              </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">49</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="133">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">TWO</token>
+    <token name="T_WHITESPACE">              </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">50</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="134">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">THREE</token>
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">51</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="135">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">FOUR</token>
+    <token name="T_WHITESPACE">             </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">52</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="136">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">FIVE</token>
+    <token name="T_WHITESPACE">             </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">53</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="137">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SIX</token>
+    <token name="T_WHITESPACE">              </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">54</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="138">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SEVEN</token>
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">55</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="139">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">EIGHT</token>
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">56</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="140">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">NINE</token>
+    <token name="T_WHITESPACE">             </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">57</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="141">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">COLON</token>
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">58</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="142">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SEMICOLON</token>
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">59</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="143">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">LESS_THAN</token>
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">60</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="144">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">EQUALS</token>
+    <token name="T_WHITESPACE">           </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">61</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="145">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">GREATER_THAN</token>
+    <token name="T_WHITESPACE">     </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">62</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="146">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">QUESTION_MARK</token>
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">63</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="147">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">AT_SYMBOL</token>
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">64</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="148">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">A_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">65</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="149">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">B_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">66</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="150">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">C_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">67</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="151">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">D_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">68</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="152">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">E_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">69</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="153">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">F_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">70</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="154">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">G_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">71</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="155">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">H_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">72</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="156">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">I_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">73</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="157">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">J_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">74</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="158">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">K_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">75</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="159">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">L_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">76</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="160">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">M_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">77</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="161">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">N_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">78</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="162">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">O_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">79</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="163">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">P_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">80</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="164">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">Q_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">81</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="165">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">R_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">82</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="166">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">S_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">83</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="167">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">T_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">84</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="168">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">U_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">85</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="169">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">V_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">86</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="170">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">W_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">87</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="171">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">X_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">88</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="172">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">Y_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">89</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="173">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">Z_UPPERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">90</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="174">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">OPENING_BRACKET</token>
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">91</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="175">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">BACKSLASH</token>
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">92</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="176">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">CLOSING_BRACKET</token>
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">93</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="177">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">CARET</token>
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">94</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="178">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">UNDERSCORE</token>
+    <token name="T_WHITESPACE">       </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">95</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="179">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">GRAVE_ACCENT</token>
+    <token name="T_WHITESPACE">     </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">96</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="180">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">A_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">97</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="181">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">B_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">98</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="182">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">C_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">99</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="183">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">D_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">100</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="184">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">E_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">101</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="185">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">F_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">102</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="186">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">G_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">103</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="187">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">H_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">104</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="188">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">I_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">105</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="189">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">J_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">106</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="190">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">K_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">107</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="191">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">L_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">108</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="192">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">M_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">109</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="193">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">N_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">110</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="194">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">O_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">111</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="195">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">P_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">112</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="196">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">Q_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">113</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="197">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">R_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">114</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="198">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">S_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">115</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="199">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">T_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">116</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="200">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">U_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">117</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="201">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">V_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">118</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="202">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">W_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">119</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="203">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">X_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">120</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="204">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">Y_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">121</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="205">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">Z_LOWERCASE</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">122</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="206">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">OPENING_BRACE</token>
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">123</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="207">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">VERTICAL_BAR</token>
+    <token name="T_WHITESPACE">     </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">124</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="208">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">CLOSING_BRACE</token>
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">125</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="209">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">TILDE</token>
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">126</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="210">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_CONST">const</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">DELETE</token>
+    <token name="T_WHITESPACE">           </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">127</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="211">
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+</source>
