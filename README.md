@@ -2,6 +2,7 @@
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/?branch=master)
 [![License MIT](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/LTD-Beget/ascii-table/blob/master/LICENSE)
+[![Documentation](https://img.shields.io/badge/code-documented-brightgreen.svg)](http://ltd-beget.github.io/ascii-table/documentation/html/index.html)
 
 Php library with ascii table enum.
 
