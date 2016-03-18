@@ -22,7 +22,10 @@
       <h1>
 <a id="ascii-table" class="anchor" href="#ascii-table" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ascii table</h1>
 
-<p><a href="https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/?branch=master"><img src="https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
+<p><a href="https://packagist.org/packages/ltd-beget/ascii-table"><img src="https://poser.pugx.org/ltd-beget/ascii-table/version" alt="Latest Stable Version"></a> 
+<a href="https://packagist.org/packages/ltd-beget/ascii-table"><img src="https://poser.pugx.org/ltd-beget/ascii-table/downloads" alt="Total Downloads"></a>
+<a href="https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/?branch=master"><img src="https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
+<a href="http://ltd-beget.github.io/ascii-table/documentation/html/index.html"><img src="https://img.shields.io/badge/code-documented-brightgreen.svg" alt="Documentation"></a>
 <a href="https://github.com/LTD-Beget/ascii-table/blob/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License MIT"></a></p>
 
 <p>Php library with ascii table enum.</p>
@@ -39,17 +42,16 @@
 <span class="pl-s1"><span class="pl-k">&lt;</span>?<span class="pl-c1">php</span></span>
 <span class="pl-s1">    <span class="pl-k">require</span>(<span class="pl-c1">__DIR__</span> <span class="pl-k">.</span> <span class="pl-s"><span class="pl-pds">'</span>/vendor/autoload.php<span class="pl-pds">'</span></span>);</span>
 <span class="pl-s1"></span>
-<span class="pl-s1">    <span class="pl-k">use</span> <span class="pl-c1">LTDBeget\ascii\AsciiControlChar</span>;</span>
-<span class="pl-s1">    <span class="pl-k">use</span> <span class="pl-c1">LTDBeget\ascii\AsciiPrintableChar</span>;</span>
+<span class="pl-s1">    <span class="pl-k">use</span> <span class="pl-c1">LTDBeget\ascii\AsciiChar</span>;</span>
 <span class="pl-s1"></span>
-<span class="pl-s1">    <span class="pl-smi">$backspace</span> <span class="pl-k">=</span> <span class="pl-c1">AsciiControlChar</span><span class="pl-k">::</span>BACKSPACE();</span>
+<span class="pl-s1">    <span class="pl-smi">$backspace</span> <span class="pl-k">=</span> <span class="pl-c1">AsciiChar</span><span class="pl-k">::</span>BACKSPACE();</span>
 <span class="pl-s1">    <span class="pl-smi">$backspace</span><span class="pl-k">-&gt;</span>getDec();</span>
 <span class="pl-s1">    <span class="pl-smi">$backspace</span><span class="pl-k">-&gt;</span>getChar();</span>
 <span class="pl-s1">    <span class="pl-smi">$backspace</span><span class="pl-k">-&gt;</span>getHex();</span>
 <span class="pl-s1">    <span class="pl-smi">$backspace</span><span class="pl-k">-&gt;</span>isControlChar();</span>
 <span class="pl-s1">    <span class="pl-smi">$backspace</span><span class="pl-k">-&gt;</span>isPrintableChar();</span>
 <span class="pl-s1"></span>
-<span class="pl-s1">    <span class="pl-smi">$colon</span> <span class="pl-k">=</span> <span class="pl-c1">AsciiPrintableChar</span><span class="pl-k">::</span>COLON();</span>
+<span class="pl-s1">    <span class="pl-smi">$colon</span> <span class="pl-k">=</span> <span class="pl-c1">AsciiChar</span><span class="pl-k">::</span>COLON();</span>
 <span class="pl-s1">    <span class="pl-smi">$colon</span><span class="pl-k">-&gt;</span>getDec();</span>
 <span class="pl-s1">    <span class="pl-smi">$colon</span><span class="pl-k">-&gt;</span>getChar();</span>
 <span class="pl-s1">    <span class="pl-smi">$colon</span><span class="pl-k">-&gt;</span>getHex();</span>
