@@ -20,17 +20,16 @@ composer require ltd-beget/ascii-table
 <?php
     require(__DIR__ . '/vendor/autoload.php');
     
-    use LTDBeget\ascii\AsciiControlChar;
-    use LTDBeget\ascii\AsciiPrintableChar;
+    use LTDBeget\ascii\AsciiChar;
     
-    $backspace = AsciiControlChar::BACKSPACE();
+    $backspace = AsciiChar::BACKSPACE();
     $backspace->getDec();
     $backspace->getChar();
     $backspace->getHex();
     $backspace->isControlChar();
     $backspace->isPrintableChar();
     
-    $colon = AsciiPrintableChar::COLON();
+    $colon = AsciiChar::COLON();
     $colon->getDec();
     $colon->getChar();
     $colon->getHex();
