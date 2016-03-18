@@ -1,0 +1,27 @@
+{
+  "name": "ltd-beget/ascii-table",
+  "type": "library",
+  "description": "Php library with ascii table enum.",
+  "keywords": [
+    "ascii"
+  ],
+  "authors": [
+    {
+      "name": "Viskov Sergey",
+      "homepage": "https://github.com/voksiv"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "marc-mabe/php-enum" : "2.2.*"
+  },
+  "require-dev": {
+    "theseer/phpdox": "0.8.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "LTDBeget\\ascii": "src"
+    }
+  }
+}
+
