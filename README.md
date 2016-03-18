@@ -1,7 +1,7 @@
-# sphinx-configurator
+# ascii table
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/LTD-Beget/ascii-table/?branch=master)
-[![License MIT](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/voksiv/sphinx-configurator/blob/master/LICENSE)
+[![License MIT](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/LTD-Beget/ascii-table/blob/master/LICENSE)
 
 Php library with ascii table enum.
 
