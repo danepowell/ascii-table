@@ -23,18 +23,17 @@ composer require ltd-beget/ascii-table
     use LTDBeget\ascii\AsciiChar;
     
     $backspace = AsciiChar::BACKSPACE();
-    $backspace->getDec();
-    $backspace->getChar();
-    $backspace->getHex();
+    $backspace->getName();
+    $backspace->getValue();
+    $backspace->is(AsciiChar::BACKSPACE);
     $backspace->isControlChar();
+    $backspace->isHorizontalSpace();
+    $backspace->isVerticalSpace();
+    $backspace->isWhiteSpace();
     $backspace->isPrintableChar();
-    
-    $colon = AsciiChar::COLON();
-    $colon->getDec();
-    $colon->getChar();
-    $colon->getHex();
-    $colon->isControlChar();
-    $colon->isPrintableChar();
+    $backspace->isLetter();
+    $backspace->isDigit();
+    $backspace->isExtended();
 ```
 ## Developers
 ### Regenerate documentation

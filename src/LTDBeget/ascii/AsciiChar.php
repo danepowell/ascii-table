@@ -531,45 +531,12 @@ class AsciiChar extends Enum
     const CODE_255                 = 255;
 
     /**
-     * ascii table symbol as char
-     * @return string
-     */
-    public function __toString()
-    {
-        return $this->getChar();
-    }
-
-    /**
-     * @return string
-     */
-    public function getChar() : string
-    {
-        return chr($this->getValue());
-    }
-
-    /**
-     * @return int
-     */
-    public function getDec() : int
-    {
-        return $this->getValue();
-    }
-
-    /**
-     * @return string
-     */
-    public function getHex() : string
-    {
-        return dechex($this->getDec());
-    }
-
-    /**
      * @return bool
      */
     public function isControlChar() : bool
     {
-        return ($this->getDec() >= AsciiChar::NULL && $this->getDec() <= AsciiChar::UNIT_SEPARATOR)
-               || $this->getDec() == AsciiChar::DELETE;
+        return $this->isControlChar ?? $this->isControlChar =
+            ((($dec = $this->getValue()) >= AsciiChar::NULL && $dec <= AsciiChar::UNIT_SEPARATOR) || $dec === AsciiChar::DELETE);
     }
 
     /**
@@ -577,7 +544,8 @@ class AsciiChar extends Enum
      */
     public function isPrintableChar() : bool
     {
-        return $this->getDec() >= AsciiChar::SPACE && $this->getDec() <= AsciiChar::TILDE;
+        return $this->isPrintableChar ?? $this->isPrintableChar =
+            ((($dec = $this->getValue()) >= AsciiChar::SPACE && $dec <= AsciiChar::TILDE) || $dec >= AsciiChar::CODE_128);
     }
 
     /**
@@ -585,7 +553,8 @@ class AsciiChar extends Enum
      */
     public function isWhiteSpace() : bool
     {
-        return $this->isVerticalSpace() || $this->isHorizontalSpace();
+        return $this->isWhiteSpace ?? $this->isWhiteSpace =
+            ($this->isVerticalSpace() || $this->isHorizontalSpace());
     }
 
     /**
@@ -593,7 +562,8 @@ class AsciiChar extends Enum
      */
     public function isHorizontalSpace() : bool
     {
-        return $this->getDec() == AsciiChar::SPACE || $this->getDec() == AsciiChar::HORIZONTAL_TAB;
+        return $this->isHorizontalSpace ?? $this->isHorizontalSpace =
+            ($dec = $this->getValue()) === AsciiChar::SPACE || $dec === AsciiChar::HORIZONTAL_TAB;
     }
 
     /**
@@ -601,7 +571,8 @@ class AsciiChar extends Enum
      */
     public function isVerticalSpace() : bool
     {
-        return $this->getDec() == AsciiChar::LINE_FEED || $this->getDec() == AsciiChar::VERTICAL_TAB;
+        return $this->isVerticalSpace ?? $this->isVerticalSpace =
+            ($dec = $this->getValue()) === AsciiChar::LINE_FEED || $dec === AsciiChar::VERTICAL_TAB;
     }
 
     /**
@@ -609,8 +580,9 @@ class AsciiChar extends Enum
      */
     public function isLetter() : bool
     {
-        return ($this->getDec() >= AsciiChar::A_UPPERCASE && $this->getDec() <= AsciiChar::Z_UPPERCASE) ||
-               ($this->getDec() >= AsciiChar::A_LOWERCASE && $this->getDec() <= AsciiChar::Z_LOWERCASE);
+        return $this->isLetter ?? $this->isLetter =
+            ((($dec = $this->getValue()) >= AsciiChar::A_UPPERCASE && $dec <= AsciiChar::Z_UPPERCASE) ||
+               ($dec >= AsciiChar::A_LOWERCASE && $dec <= AsciiChar::Z_LOWERCASE));
     }
 
     /**
@@ -618,7 +590,8 @@ class AsciiChar extends Enum
      */
     public function isDigit() : bool
     {
-        return $this->getDec() >= AsciiChar::ZERO && $this->getDec() <= AsciiChar::NINE;
+        return $this->isDigit ?? $this->isDigit =
+            ($dec = $this->getValue()) >= AsciiChar::ZERO && $dec <= AsciiChar::NINE;
     }
 
     /**
@@ -626,6 +599,47 @@ class AsciiChar extends Enum
      */
     public function isExtended() : bool
     {
-        return $this->getDec() >= AsciiChar::CODE_128;
+        return $this->isExtended ?? $this->isExtended =
+            $this->getValue() >= AsciiChar::CODE_128;
     }
+
+    /**
+     * @var bool
+     */
+    private $isControlChar;
+
+    /**
+     * @var bool
+     */
+    private $isPrintableChar;
+
+    /**
+     * @var bool
+     */
+    private $isWhiteSpace;
+
+    /**
+     * @var bool
+     */
+    private $isHorizontalSpace;
+
+    /**
+     * @var bool
+     */
+    private $isVerticalSpace;
+
+    /**
+     * @var bool
+     */
+    private $isLetter;
+
+    /**
+     * @var bool
+     */
+    private $isDigit;
+
+    /**
+     * @var bool
+     */
+    private $isExtended;
 }
