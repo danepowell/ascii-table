@@ -13,10 +13,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "marc-mabe/php-enum" : "2.2.*"
-  },
-  "require-dev": {
-    "theseer/phpdox": "0.8.*"
+    "marc-mabe/php-enum" : ">=2.2"
   },
   "autoload": {
     "psr-0": {
